@@ -1,0 +1,130 @@
+.topNav{height:47px;background: rgb(0, 151, 65);color: #fff;height:47px;}
+.first-header {padding: 5px 0px;}
+.first-header a {color: #fff;}
+.first-header a:hover, .first-header a:focus{color: #fff;}
+.rgt{padding: 10px 0px;}
+
+.stripbar{background-color:#5d5955;color: #fff;height:auto;}
+.rgt1 a:hover, .h5 a:focus{color: #7dbb00 !important;}
+.rgt1{padding: 0px 0px;
+
+}
+.ds{padding: 0px 30px;
+
+}
+.strip {padding: 5px 0px;}
+
+#map {
+        height: 405px;
+        width: 100%;
+       }
+
+/*.sidebar{
+background-color:#f7f7f7;
+}
+.pull-left{
+    float: left !important;
+}
+
+.wrap1{
+    width: 100%;
+    float: left;
+    padding: 25px;
+    margin: 0 0 10px;
+    background: #f7f7f7;
+   
+    position: relative;
+}
+.rwrap{
+    width: 100%;
+    float: left;
+    padding: 11px;
+    
+    background: #f7f7f7;
+   
+    position: relative;
+}
+.form-control{
+    border-radius: 0px !important;
+}
+.heading h2 {
+    margin: 0;
+    float: left;
+    color: #5d5955;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 0 0 13px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #5d5955;
+}
+.btnsrh{
+    margin-left:30px;
+}
+.specialist{
+     width: 100%;
+    float: left;
+    padding: 25px;
+    margin: 0 0 10px;
+    background: #f7f7f7
+}
+.pribox{
+    width: 100%;
+    float: left;
+    padding: 25px;
+    margin: 0 0 10px;
+    background: #f7f7f7;
+   
+    position: relative;
+}
+.tg-heading-border.tg-small h2 {
+
+    margin: 0;
+    float: left;
+    color: #5d5955;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 0 15px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #5d5955;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+
+}
+.tg-form-privacy .tg-privacy-name{
+    font-weight: bold;
+}
+
+.tg-iosstylcheckbox label{
+    margin: 0;
+    width: 100%;
+    height: 24px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 24px;
+    position: relative;
+    background: #505050;
+    border-radius: 12px;
+
+    font-weight: 700;
+}
+.tg-iosstylcheckbox input[type=checkbox]:checked + label:before {
+    left: calc(100% - 19px);
+    background: #373542;
+    }
+    .tg-iosstylcheckbox label:after {
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: right;
+    padding: 0 12px 0 0;
+    position: absolute;
+    white-space: nowrap;
+    content: attr(data-private);
+}*/

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Doctors Directory</title>
+    <!-- Meta tag Keywords -->
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       
+    <!-- css files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">    
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- JS Links -->   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--map script-->
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQ3RzVDLgeCVf5nE3hZKeq2Dy2PUvO7jE&callback=initMap">
+    </script>
+    <!--map script-->
+    <script>
+     function initMap() {
+        var iconBase = 'http://wedicons.com/images/logo.png';
+        var uluru = {lat:17.403749, lng:78.449182};
+      
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+          // icon: iconBase +'images/logo.png'
+        });
+
+      }
+    </script>
+
+
+    </head>
+    <body>
+        <section class="wrapper-content topNav">
+            <div class="container">
+                <div class="first-header">
+                    <div class="navbar-right rgt">                      
+                        <a href="#"><i class="fa fa-phone"></i> &nbsp;040-1234 5678</a> &nbsp;&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-envelope-o"></i> &nbsp;info@accurahealthcare.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+    <!--strip start-->
+     <section class="wrapper-content stripbar">
+            <div class="row">
+
+                <div class="col-md-3 col-xs-12 strip">
+                    <h5 class="ds">Directory Search</h5>  
+                </div>
+                    <div class="col-md-6"></div>
+                   
+                    <div class="col-md-3   rgt1">
+                       <h5><a href="#" style="color:white";>Homepage</a>&nbsp;&nbsp;>&nbsp;&nbsp;Directory Search</h5>
+
+                    </div>
+            </div>     
+    </section>
+    <!--strip end-->
+          <!--map start-->
+                <section>
+                    <div class="container-fluid">
+                       <div class="row">
+                         <div id="map"></div>
+                       </div>               
+                    </div>          
+                </section>
+        <!--map end-->
+
+         
+    </body>
+</html>
